@@ -92,7 +92,7 @@ with pdfplumber.open("PDE-Action_-Sex-Education-State-Laws_v2-3.pdf") as pdf_v3:
 # 
 # - First, I configured the PDF into usable data (below). This was done by extracting the raw text from the PDF document, splitting the raw text into lines, then putting the answers to the questions I need into a dataframe. I'm currently only using Q1 (Does the state mandate sex ed?) and Q2 (Does the state have an opt-in/opt-out policy?) to make the dataframe creation process quicker. This process may be changed later if I decided to add the answers to other questions on the document to my dataset. 
 # 
-# - Scroll down to see the data cleaning and transformation of my remaining sources + my visualizations. 
+# - Scroll down to see the data cleaning and transformation of my remaining sources + my visualizations. The steps I took and a detailed description/analysis of each visualization is below the data transcormation code blocks. 
 
 # In[ ]:
 
@@ -232,27 +232,46 @@ total_births_by_state_2023_2025 = BirthData20232025.groupby("State")["Births"].s
 
 # ## Checkpoint 2: Exploratory Data Analysis & Visualization - Data Visualization and EDA
 # 
-# Visualization #1: Count of states (50 states + DC) mandating sex-ed by answer (yes, no, partial)
+# Two visualization libraries used: Matplotlib and Seaborn. 
+# 
+# Write up of the data below:
+# 
+# **Visualization #1:** Count of states (50 states + DC) mandating sex-ed by answer (yes, no, partial)
 # - This visualization was created to test out my dataframe + show the counts of how many states (plus DC) have mandated sex-ed policies. "Partial" refers to states that have sex-ed mandated, but is not all comprehensive (for example, they could teach about STDs, but not about safe sex practices). 
 # - This visualization illustrates that the majority of states (41/50) have at least some kind of sex-ed policy. This data will be used with the natality (and eventually U.S. census data) to visualize correlations between mandated sex-ed and teen pregancies. 
 # 
-# Visualization #2: Count of states (50 states + DC) by opt-in/opt-out policy type (opt-in, opt-out, no policy)
+# **Visualization #2:** Count of states (50 states + DC) by opt-in/opt-out policy type (opt-in, opt-out, no policy)
 # - This visualization shows how many states have an opt-in/opt-out policy, meaning the parents can request for their children to be included or excluded from sex-ed.  
 # - Interestingly, the number of states with no opt-in/out policy is 8.  I'd like to compare this figure with the states mandating sex-ed to see which states have no opt-in policy, since 10 states have no mandated sex ed.
 # - This raises the question, are there any states that both have no mandated sex-ed and have an opt-in/out policy? This seems contradictory and could point to some problems in how I cleaned my data, so I should go back and compare these numbers. 
 # 
-# Visualization #3: Line graph showing trend of births from 2016 to 2025. This line graph showcases the natality data from the 2016-2024 and 2023-2025 datasets. 
+# **Visualization #3:** Line graph showing trend of births from 2016 to 2025. This line graph showcases the natality data from the 2016-2024 and 2023-2025 datasets. 
 # - This is a double line graph showing the count of births per state for each of the natality datasets.  The datasets seem to follow the same trends, which is a goos sign because it means there were likely no major policy changes between years that were missed. 
 # - The 2023-2025 data shows lower peaks than the 2016-2024 data. This raises questions about what changed during this time to lower the teen birth rate (quarantine due to Covid-19, smaller dataset, etc?)
 # - The line chart shows the highest peaks in California and Texas. What's causing these peaks, what are their state policies, etc?
 # 
-# Visualization #4: Bar chart showing top 10 states with highest teen births from 2023-2025, whether they have a mandated sex ed policy, and whether they have an opt-in/opt-out policy
+# **Visualization #4:** Bar chart showing top 10 states with highest teen births from 2023-2025, whether they have a mandated sex ed policy, and whether they have an opt-in/opt-out policy
 # - Shockingly, the only state in the top 10 with no mandated sex-ed is the #1 state, Texas.  This state has astronomically higher rates of teen pregnancy than any of the other states, and the hex pattern indicates that it also has an opt-out policy. 
 # - Of the remaining nine, four only have partial mandated sex-ed and five have mandated sex ed.  All of them have opt-out policies. 
 # - I plan do find out what the opt-out policy is for TX if there is no mandated sex-ed. It's likely to opt-out when sex-ed is offered even when it's not mandated. 
 # - I also plan to repeat this process with the top 10 states with the lowest teen preganancy rates and compare results. 
 # 
-# Adding the U.S. census data will take population into account and could provide additional insight into some of the figures we see right now. 
+# - This visualization was the most difficult to get right, and originally I planned to show it as two different visualizations (top states by mandate policy and top states by opt in/out policy).
+# 
+# The sources I used for this visualization (matplotlib tutorials): 
+# - https://pythonguides.com/transparent-plot-backgrounds-and-legend-styling-matplotlib-python/
+# - https://matplotlib.org/stable/gallery/shapes_and_collections/hatch_style_reference.html
+# - https://matplotlib.org/stable/users/explain/customizing.html
+# 
+# 
+# **Visualization #5:** This visualization is a bar chart merging the 2025 natality dataset with the state laws dataset by State.  It compares the avg births with the required sex-ed policies. 
+# - This visualization is the most telling, showcasing the highest rates of teen pregnancy in states that have no or partial mandated sex-ed. 
+# - It strongly points towards a correlation between sex-ed and teen pregancy, suggesting that mandated sex-ed will lower the teen pregancy rates in the U.S. 
+# 
+# **Note:** Adding the U.S. census data will take population into account and could provide additional insight into some of the figures we see right now. 
+# 
+# 
+# **Machine learning plan:** We have not yet begun this module, so I cannot say what types of machine learning I will use or how I will make that happen. 
 # 
 # Scroll down to see each visualization
 # 
@@ -318,15 +337,6 @@ plt.tight_layout()
 plt.show()
 
 
-# Visualization #4 (below) combines the 2023-2025 natality dataset with the state laws dataset to show the top 10 states with the highest birthrate and whether they have a mandated sex ed policy or an opt in/opt out policy.  This visualization was the most difficult to get right, and originally I planned to show it as two different visualizations (top states by mandate policy and top states by opt in/out policy).
-# 
-# The sources I used for this visualization (matplotlib tutorials): 
-# - https://pythonguides.com/transparent-plot-backgrounds-and-legend-styling-matplotlib-python/
-# - https://matplotlib.org/stable/gallery/shapes_and_collections/hatch_style_reference.html
-# - https://matplotlib.org/stable/users/explain/customizing.html
-# 
-# I plan to repeat this process with the 2016-2024 dataset, although the results should be almost the same. 
-
 # In[ ]:
 
 
@@ -376,6 +386,23 @@ plt.legend(handles=legend_elements, title="Policies", loc="upper right")
 plt.show()
 
 
+# In[ ]:
+
+
+#Visualization #5: Bar chart showing average teen births from 2023-2025 by whether the state mandates sex-ed
+import seaborn as sns
+merged_data = pd.merge(total_births_by_state_2023_2025, StateLawDF, on="State")
+merged_data.groupby("Mandates Sex Ed?")["Births"].mean()
+
+#visualizing merged_data as a bar chart 
+plt.figure(figsize=(10, 6))
+sns.barplot(x=merged_data["Mandates Sex Ed?"], y=merged_data["Births"], ci=None)
+plt.title("Average Teen Births by Sex Ed Mandate")
+plt.xlabel("Mandates Sex Ed?")
+plt.ylabel("Average Number of Births")
+plt.show()
+
+
 # ## Resources and References
 # *What resources and references have you used for this project?*
 # 📝 <!-- Answer Below -->
@@ -391,7 +418,7 @@ plt.show()
 # - https://matplotlib.org/stable/users/explain/customizing.html
 # 
 
-# In[4]:
+# In[104]:
 
 
 # ⚠️ Make sure you run this cell at the end of your notebook before every submission!
