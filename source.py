@@ -46,11 +46,11 @@
 # 📝 <!-- Start Discussing the project here; you can add as many code cells as you need -->
 # 
 # My approach will be to:
-# - Calculate the average and raw teen pregnancy rate per state using census population numbers and CDC natality data. 
+# - Calculate the average and raw teen pregnancy rate per state using census population numbers and CDC natality data. (This step had to be delayed due to issues with the census website)
 # 
 # - Extract data from the Sex Education Laws by State site and convert it into a usable table, including whether sex education is required and how comprehensive it is. 
 # 
-# - Connect datasets by year and when applicable "Mandata Sex Ed" and/or age. 
+# - Connect datasets by year and when applicable "Mandate Sex Ed" and/or age. 
 # 
 # - Explore visualizations to illustrate the data and results. 
 
@@ -418,7 +418,7 @@ plt.show()
 # - https://matplotlib.org/stable/users/explain/customizing.html
 # 
 
-# In[104]:
+# In[109]:
 
 
 # ⚠️ Make sure you run this cell at the end of your notebook before every submission!
