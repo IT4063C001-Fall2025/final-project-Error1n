@@ -1,0 +1,296 @@
+Notes,State of Residence,State of Residence Code,Age of Mother,Age of Mother 13 Code,Births
+,Alabama,1,Under 15 years,15-,22
+,Alabama,1,15 years,15,59
+,Alabama,1,16 years,16,130
+,Alabama,1,17 years,17,258
+,Alabama,1,18 years,18,496
+,Alabama,1,19 years,19,815
+,Alaska,2,16 years,16,14
+,Alaska,2,17 years,17,22
+,Alaska,2,18 years,18,45
+,Alaska,2,19 years,19,92
+,Arizona,4,15 years,15,43
+,Arizona,4,16 years,16,119
+,Arizona,4,17 years,17,277
+,Arizona,4,18 years,18,526
+,Arizona,4,19 years,19,857
+,Arkansas,5,Under 15 years,15-,10
+,Arkansas,5,15 years,15,48
+,Arkansas,5,16 years,16,87
+,Arkansas,5,17 years,17,190
+,Arkansas,5,18 years,18,334
+,Arkansas,5,19 years,19,629
+,California,6,Under 15 years,15-,52
+,California,6,15 years,15,182
+,California,6,16 years,16,427
+,California,6,17 years,17,775
+,California,6,18 years,18,1604
+,California,6,19 years,19,2917
+,Colorado,8,Under 15 years,15-,15
+,Colorado,8,15 years,15,32
+,Colorado,8,16 years,16,67
+,Colorado,8,17 years,17,156
+,Colorado,8,18 years,18,288
+,Colorado,8,19 years,19,494
+,Connecticut,9,16 years,16,29
+,Connecticut,9,17 years,17,56
+,Connecticut,9,18 years,18,103
+,Connecticut,9,19 years,19,199
+,Delaware,10,15 years,15,13
+,Delaware,10,16 years,16,14
+,Delaware,10,17 years,17,29
+,Delaware,10,18 years,18,51
+,Delaware,10,19 years,19,125
+,District of Columbia,11,17 years,17,33
+,District of Columbia,11,18 years,18,35
+,District of Columbia,11,19 years,19,50
+,Florida,12,Under 15 years,15-,53
+,Florida,12,15 years,15,124
+,Florida,12,16 years,16,295
+,Florida,12,17 years,17,584
+,Florida,12,18 years,18,1127
+,Florida,12,19 years,19,2015
+,Georgia,13,Under 15 years,15-,28
+,Georgia,13,15 years,15,87
+,Georgia,13,16 years,16,216
+,Georgia,13,17 years,17,489
+,Georgia,13,18 years,18,912
+,Georgia,13,19 years,19,1491
+,Hawaii,15,16 years,16,16
+,Hawaii,15,17 years,17,25
+,Hawaii,15,18 years,18,66
+,Hawaii,15,19 years,19,125
+,Idaho,16,16 years,16,23
+,Idaho,16,17 years,17,76
+,Idaho,16,18 years,18,114
+,Idaho,16,19 years,19,244
+,Illinois,17,Under 15 years,15-,29
+,Illinois,17,15 years,15,74
+,Illinois,17,16 years,16,161
+,Illinois,17,17 years,17,308
+,Illinois,17,18 years,18,642
+,Illinois,17,19 years,19,1079
+,Indiana,18,Under 15 years,15-,22
+,Indiana,18,15 years,15,67
+,Indiana,18,16 years,16,124
+,Indiana,18,17 years,17,260
+,Indiana,18,18 years,18,530
+,Indiana,18,19 years,19,963
+,Iowa,19,Under 15 years,15-,12
+,Iowa,19,15 years,15,21
+,Iowa,19,16 years,16,45
+,Iowa,19,17 years,17,112
+,Iowa,19,18 years,18,200
+,Iowa,19,19 years,19,353
+,Kansas,20,15 years,15,24
+,Kansas,20,16 years,16,56
+,Kansas,20,17 years,17,122
+,Kansas,20,18 years,18,222
+,Kansas,20,19 years,19,440
+,Kentucky,21,Under 15 years,15-,13
+,Kentucky,21,15 years,15,42
+,Kentucky,21,16 years,16,106
+,Kentucky,21,17 years,17,213
+,Kentucky,21,18 years,18,499
+,Kentucky,21,19 years,19,783
+,Louisiana,22,Under 15 years,15-,17
+,Louisiana,22,15 years,15,70
+,Louisiana,22,16 years,16,94
+,Louisiana,22,17 years,17,230
+,Louisiana,22,18 years,18,459
+,Louisiana,22,19 years,19,799
+,Maine,23,17 years,17,17
+,Maine,23,18 years,18,51
+,Maine,23,19 years,19,87
+,Maryland,24,Under 15 years,15-,15
+,Maryland,24,15 years,15,41
+,Maryland,24,16 years,16,91
+,Maryland,24,17 years,17,131
+,Maryland,24,18 years,18,310
+,Maryland,24,19 years,19,476
+,Massachusetts,25,Under 15 years,15-,18
+,Massachusetts,25,15 years,15,15
+,Massachusetts,25,16 years,16,60
+,Massachusetts,25,17 years,17,102
+,Massachusetts,25,18 years,18,205
+,Massachusetts,25,19 years,19,309
+,Michigan,26,Under 15 years,15-,27
+,Michigan,26,15 years,15,49
+,Michigan,26,16 years,16,132
+,Michigan,26,17 years,17,222
+,Michigan,26,18 years,18,511
+,Michigan,26,19 years,19,912
+,Minnesota,27,15 years,15,25
+,Minnesota,27,16 years,16,58
+,Minnesota,27,17 years,17,116
+,Minnesota,27,18 years,18,221
+,Minnesota,27,19 years,19,378
+,Mississippi,28,Under 15 years,15-,17
+,Mississippi,28,15 years,15,39
+,Mississippi,28,16 years,16,90
+,Mississippi,28,17 years,17,188
+,Mississippi,28,18 years,18,392
+,Mississippi,28,19 years,19,550
+,Missouri,29,Under 15 years,15-,15
+,Missouri,29,15 years,15,48
+,Missouri,29,16 years,16,107
+,Missouri,29,17 years,17,245
+,Missouri,29,18 years,18,493
+,Missouri,29,19 years,19,832
+,Montana,30,16 years,16,16
+,Montana,30,17 years,17,34
+,Montana,30,18 years,18,64
+,Montana,30,19 years,19,120
+,Nebraska,31,15 years,15,17
+,Nebraska,31,16 years,16,35
+,Nebraska,31,17 years,17,64
+,Nebraska,31,18 years,18,145
+,Nebraska,31,19 years,19,229
+,Nevada,32,15 years,15,17
+,Nevada,32,16 years,16,33
+,Nevada,32,17 years,17,83
+,Nevada,32,18 years,18,197
+,Nevada,32,19 years,19,296
+,New Hampshire,33,17 years,17,10
+,New Hampshire,33,18 years,18,26
+,New Hampshire,33,19 years,19,63
+,New Jersey,34,Under 15 years,15-,17
+,New Jersey,34,15 years,15,45
+,New Jersey,34,16 years,16,72
+,New Jersey,34,17 years,17,149
+,New Jersey,34,18 years,18,276
+,New Jersey,34,19 years,19,465
+,New Mexico,35,15 years,15,30
+,New Mexico,35,16 years,16,41
+,New Mexico,35,17 years,17,94
+,New Mexico,35,18 years,18,182
+,New Mexico,35,19 years,19,304
+,New York,36,Under 15 years,15-,32
+,New York,36,15 years,15,101
+,New York,36,16 years,16,165
+,New York,36,17 years,17,351
+,New York,36,18 years,18,671
+,New York,36,19 years,19,1300
+,North Carolina,37,Under 15 years,15-,25
+,North Carolina,37,15 years,15,89
+,North Carolina,37,16 years,16,186
+,North Carolina,37,17 years,17,394
+,North Carolina,37,18 years,18,748
+,North Carolina,37,19 years,19,1360
+,North Dakota,38,17 years,17,20
+,North Dakota,38,18 years,18,57
+,North Dakota,38,19 years,19,82
+,Ohio,39,Under 15 years,15-,34
+,Ohio,39,15 years,15,102
+,Ohio,39,16 years,16,189
+,Ohio,39,17 years,17,397
+,Ohio,39,18 years,18,803
+,Ohio,39,19 years,19,1407
+,Oklahoma,40,Under 15 years,15-,16
+,Oklahoma,40,15 years,15,40
+,Oklahoma,40,16 years,16,112
+,Oklahoma,40,17 years,17,233
+,Oklahoma,40,18 years,18,410
+,Oklahoma,40,19 years,19,775
+,Oregon,41,15 years,15,15
+,Oregon,41,16 years,16,42
+,Oregon,41,17 years,17,86
+,Oregon,41,18 years,18,200
+,Oregon,41,19 years,19,348
+,Pennsylvania,42,Under 15 years,15-,34
+,Pennsylvania,42,15 years,15,76
+,Pennsylvania,42,16 years,16,174
+,Pennsylvania,42,17 years,17,317
+,Pennsylvania,42,18 years,18,616
+,Pennsylvania,42,19 years,19,1046
+,Rhode Island,44,17 years,17,28
+,Rhode Island,44,18 years,18,41
+,Rhode Island,44,19 years,19,69
+,South Carolina,45,Under 15 years,15-,20
+,South Carolina,45,15 years,15,36
+,South Carolina,45,16 years,16,142
+,South Carolina,45,17 years,17,245
+,South Carolina,45,18 years,18,467
+,South Carolina,45,19 years,19,746
+,South Dakota,46,15 years,15,13
+,South Dakota,46,16 years,16,24
+,South Dakota,46,17 years,17,35
+,South Dakota,46,18 years,18,89
+,South Dakota,46,19 years,19,126
+,Tennessee,47,Under 15 years,15-,31
+,Tennessee,47,15 years,15,75
+,Tennessee,47,16 years,16,183
+,Tennessee,47,17 years,17,347
+,Tennessee,47,18 years,18,684
+,Tennessee,47,19 years,19,1181
+,Texas,48,Under 15 years,15-,120
+,Texas,48,15 years,15,316
+,Texas,48,16 years,16,767
+,Texas,48,17 years,17,1589
+,Texas,48,18 years,18,2935
+,Texas,48,19 years,19,4894
+,Utah,49,15 years,15,12
+,Utah,49,16 years,16,33
+,Utah,49,17 years,17,76
+,Utah,49,18 years,18,198
+,Utah,49,19 years,19,344
+,Vermont,50,18 years,18,17
+,Vermont,50,19 years,19,36
+,Virginia,51,Under 15 years,15-,13
+,Virginia,51,15 years,15,49
+,Virginia,51,16 years,16,105
+,Virginia,51,17 years,17,233
+,Virginia,51,18 years,18,430
+,Virginia,51,19 years,19,791
+,Washington,53,Under 15 years,15-,15
+,Washington,53,15 years,15,35
+,Washington,53,16 years,16,88
+,Washington,53,17 years,17,162
+,Washington,53,18 years,18,325
+,Washington,53,19 years,19,638
+,West Virginia,54,15 years,15,10
+,West Virginia,54,16 years,16,47
+,West Virginia,54,17 years,17,69
+,West Virginia,54,18 years,18,137
+,West Virginia,54,19 years,19,267
+,Wisconsin,55,Under 15 years,15-,14
+,Wisconsin,55,15 years,15,33
+,Wisconsin,55,16 years,16,80
+,Wisconsin,55,17 years,17,151
+,Wisconsin,55,18 years,18,285
+,Wisconsin,55,19 years,19,529
+,Wyoming,56,17 years,17,24
+,Wyoming,56,18 years,18,38
+,Wyoming,56,19 years,19,72
+---,,,,,
+"Dataset: Provisional Natality, 2023 through Last Month",,,,,
+Query Parameters:,,,,,
+Age of Mother 13: Under 15 years; 15 years; 16 years; 17 years; 18 years; 19 years,,,,,
+Year: 2025 (Provisional),,,,,
+Group By: State of Residence; Age of Mother 13,,,,,
+Show Totals: Disabled,,,,,
+Show Zero Values: False,,,,,
+Show Suppressed: False,,,,,
+"Calculate Rates Per: 1,000",,,,,
+---,,,,,
+Help: See http://wonder.cdc.gov/wonder/help/natality-provisional.html for more information.,,,,,
+---,,,,,
+"Query Date: Sep 28, 2025 4:59:12 AM",,,,,
+---,,,,,
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics",,,,,
+"System, Provisional Natality on CDC WONDER Online Database. Data are from the Natality Records 2023 through Last Month, as",,,,,
+compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed,,,,,
+"at http://wonder.cdc.gov/natality-expanded-provisional.html on Sep 28, 2025 4:59:12 AM",,,,,
+---,,,,,
+Messages:,,,,,
+1. Totals are not available for these results due to suppression constraints. More Information:,,,,,
+http://wonder.cdc.gov/wonder/help/faq.html#Privacy.,,,,,
+2. Rows with zero Births are hidden. Use Quick Options above to show zero rows.,,,,,
+3. Rows with suppressed Births are hidden. Use Quick Options above to show suppressed rows.,,,,,
+---,,,,,
+Caveats:,,,,,
+1. 'Suppressed' appears when the data do not meet the criteria for confidentiality constraints. More information:,,,,,
+http://wonder.cdc.gov/wonder/help/natality-provisional.html#Assurance of Confidentiality.,,,,,
+2. Each birth record represents one liveborn infant.,,,,,
+3. 2024 and 2025 data are provisional and subject to change. 2023 data are final.,,,,,
+"4. Births occurring through July 31, 2025 as of August 27, 2025.",,,,,
